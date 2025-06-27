@@ -1,1 +1,6 @@
-
+<nav>
+                <a href="1">Home</a> |
+                <a href="2">Education</a> |
+                <a href="3">Portfolio</a> |
+                <a href="#">Teaching Philosophy</a> 
+            </nav>
