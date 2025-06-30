@@ -1,16 +1,93 @@
 
-about-me {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-  max-width: 600px;
-  margin: 20px auto;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5;
+}
+
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+
+
+h2 {
+  font-family: "Helvetica", sans-serif;
+  color: #5EABD6;
+  text-align: center;
+}
+  
+  
+  .about-me {
+  background-color: #ECEFCA;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
 }
 
 .about-me h3 {
-  color: #2c3e50;
-  margin-bottom: 12px;
+  color: #2c3e50;
+  margin-bottom: 12px;
 }
 
+.about-me ul {
+  list-style-type: '🌟 ';
+  padding-left: 20px;
+}
+
+.about-me li {
+  margin-bottom: 10px;
+}
+
+
+.canva-embed-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.canva-iframe-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+  margin-top: 1.6em;
+  margin-bottom: 0.9em;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #fff; /* White background */
+  will-change: transform;
+}
+
+.canva-iframe-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0; 
+  left: 0;
+  border: none;
+  display: block;
+}
+.column {
+  background: #fff;
+}
