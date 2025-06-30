@@ -83,18 +83,18 @@ figcaption {
   text-align: center;
 }
 .center-link a {
-  display: inline-block; /* optional, for more control */
-  text-decoration: none; /* optional, for styling */
+  display: inline-block; 
+  text-decoration: none; 
 }
 .center-link h3 {
-  margin: 0; /* optional, for tighter spacing */
+  margin: 0; 
 }
 h3::before {
   content: "|";
   color: #0074d9;
   margin-right: 0.1em;
   font-weight: bold;
-  font-size: 3.2em; /* Optional: adjust bar size */
+  font-size: 3.2em; 
 }
 
 h4 {
