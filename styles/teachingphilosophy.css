@@ -9,15 +9,15 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
-  margin: 32px 0;
+  gap: 35px;
+  margin: 35px 0;
 }
 
 .column {
   flex: 1 1 300px;
   min-width: 300px;
   max-width: 600px;
-  padding: 16px;
+  padding: 20px;
   box-sizing: border-box;
   background: #fff;
 }
